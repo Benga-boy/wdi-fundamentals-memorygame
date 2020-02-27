@@ -57,6 +57,15 @@ function createBoard() {
 
 createBoard();
 
+let resetBoard = function() {
+	window.location.reload();
+};
+
+let button = 
+document.querySelector('.myButton');
+button.addEventListener('click', resetBoard);
+
+
 
 
 
